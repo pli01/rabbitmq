@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM debian/jessie
+FROM debian
 
 # Add files.
 ADD bin/rabbitmq-start /usr/local/bin/
